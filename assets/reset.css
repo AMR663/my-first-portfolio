@@ -16,6 +16,10 @@
     line-height: 1;
     font-family: sans-serif;
   }
+
+  footer {
+    
+  }
   
   h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
@@ -30,6 +34,10 @@
   
   
   ol, ul {
+    list-style: none;
+  }
+
+  footer {
     list-style: none;
   }
   

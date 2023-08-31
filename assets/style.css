@@ -1,1 +1,35 @@
-.root
+/*header styling*/
+
+.header {
+block-size: 80px;
+font-family: 'Playfair Display', serif;
+background-color: navy;
+color: silver;
+}
+
+h1 {
+    font-size: 35px;
+    position: fixed;
+    top: 20px;
+    left: 15px;
+
+}
+nav {
+    white-space: nowrap;
+    font-size: 25px
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    top: 35px;
+    right: 70px;
+}
+
+nav a {
+    text-decoration: none;
+    color: silver;
+    padding-left: 2%;
+}
+
+.About {
+
+}
