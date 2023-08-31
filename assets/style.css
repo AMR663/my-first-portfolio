@@ -1,5 +1,4 @@
 /*header styling*/
-
 .header {
 block-size: 80px;
 font-family: 'Playfair Display', serif;
@@ -9,17 +8,17 @@ color: silver;
 
 h1 {
     font-size: 35px;
-    position: fixed;
+    position: relative;
     top: 20px;
     left: 15px;
 
 }
 nav {
     white-space: nowrap;
-    font-size: 25px
+    font-size: 25px;
     margin: 0px;
     padding: 0px;
-    position: fixed;
+    position: absolute;
     top: 35px;
     right: 70px;
 }
@@ -30,6 +29,45 @@ nav a {
     padding-left: 2%;
 }
 
-.About {
+/*hero styling*/
+.hero {
+background-image: url(/assets/WALL_PALLETWOOD_01.jpg);
+background-position: center;
+background-size: cover;
+height: 200px;
+color: #fff;
+display: flex;
+align-items: end;
+justify-content: end;
+padding: 20px;
+}
 
+.hero span {
+    display: flex;
+    flex-basis: 30%;
+    color: #241508;
+    font-size: 26px;
+    font-weight: 200%;
+   align-items: end;
+   justify-content: end;
+
+}
+/*About me styling*/
+h2 {
+    font-size: 20px;
+}
+main section {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+main section h2 {
+    flex-basis: 12%;
+    border-right: 3px solid #000;
+    min-width: 140px;
+
+}
+
+main section article{
+    flex-basis: 80%;
 }
