@@ -1,1 +1,184 @@
-.root
+/*header styling*/
+.header {
+    font-family: 'Playfair Display', serif;
+    background-color: navy;
+    color: silver;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 35px;
+    position: relative;
+
+}
+
+nav {
+    white-space: nowrap;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: silver;
+    padding-right: 16px;
+}
+
+/*hero styling*/
+.hero {
+    background-image: url(/images/WALL_PALLETWOOD_01.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    color: #fff;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 20px;
+}
+
+.hero > span {
+    display: flex;
+    flex-basis: 30%;
+    color: #000;
+    font-size: 26px;
+    font-weight: 200%;
+    align-items: end;
+    justify-content: end;
+    background-color: #fff;
+    opacity: 0.75;
+}
+
+.hero > span > span {
+    opacity: 1;
+    text-align: center;
+}
+
+/*About me styling*/
+h2 {
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    text-align: right;
+}
+
+main section {
+    flex-wrap: nowrap;
+    display: flex;
+    gap: 100px;
+    margin: 16px;
+}
+
+main section h2 {
+    flex-basis: 12%;
+
+}
+
+main section article {
+    flex-basis: 80%;
+    font-size: 20px;
+}
+
+/*Work Styling*/
+main section a {
+    position: relative;
+}
+main section a span {
+    background-color: #fff;
+    color: #000;
+    font-size: 35px;
+    padding: 8px;
+    position: absolute;
+    bottom: 50px; 
+    opacity: 1.0 !important; 
+    z-index: 2;
+}
+
+
+main section a img {
+
+    width: 65%;
+    padding-bottom: 30px;
+    opacity: 0.7;
+    
+}
+
+main section a img:hover {
+    opacity: 1.0;
+}
+
+aside.left {
+    width: 20%;
+    border-right: 3px solid #000;
+    padding-right: 16px;
+}
+
+aside.right {
+    width: 80%;
+}
+
+#Work aside.right {
+    text-align: center;
+    
+}
+
+/* Contact styling*/
+aside.right span {
+    margin-left: 0px;
+    font-size: 25px;
+    padding-right: 20px;
+
+}
+
+.Resume a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 415px) {
+    .header {
+        text-align: center;
+        display: block;
+    }
+
+     .hero {
+        height: auto;
+        justify-content: center;
+    }
+    nav {
+        font-size: 18px;
+    }
+    main section {
+        display: block;
+    }
+    aside.left {
+        width: 100%;
+        border-right: none;
+        border-bottom: 3px solid #000;
+        margin-bottom: 16PX;
+        padding-right: 0px;
+    }
+
+    aside.left h2 {
+        text-align: center;
+    }
+
+    aside.right {
+        width: 100%;
+    }
+
+    aside.right span {
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .Resume aside.right{
+        text-align: center;
+    }
+
+}
