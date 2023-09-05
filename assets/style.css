@@ -30,7 +30,7 @@ nav a {
 
 /*hero styling*/
 .hero {
-    background-image: url(/images/WALL_PALLETWOOD_01.jpg);
+    background-image: url('../images/WALL_PALLETWOOD_01.jpg');
     background-position: center;
     background-size: cover;
     height: 200px;
